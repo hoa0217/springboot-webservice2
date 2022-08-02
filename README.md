@@ -1,4 +1,4 @@
-## 🌱 스프링 부트와 AWS로 혼자 구현하는 웹 서비스 🌱
+## 스프링 부트와 AWS로 혼자 구현하는 웹 서비스
 <br/>
 
 <img src="https://user-images.githubusercontent.com/48192141/181599907-7bb8f83a-5b74-478d-985b-f58674a28013.png"  width="200" height="300"/>
