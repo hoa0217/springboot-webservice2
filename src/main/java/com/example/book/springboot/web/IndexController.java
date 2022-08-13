@@ -9,8 +9,6 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 
-import javax.servlet.http.HttpSession;
-
 @RequiredArgsConstructor
 @Controller
 public class IndexController {
@@ -29,13 +27,13 @@ public class IndexController {
 
     @GetMapping("/posts/save")
     public String postsSave() {
-        return "posts-save";
+        return "posts-save.html";
     }
 
     @GetMapping("/posts/update/{id}")
     public String postUpdate(@PathVariable Long id, Model model){
         model.addAttribute("post",postService.findById(id));
-        return "posts-update";
+        return "posts-update.html";
     }
 
 }
