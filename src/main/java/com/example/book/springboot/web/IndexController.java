@@ -15,7 +15,7 @@ public class IndexController {
 
     private final PostService postService;
 
-    @GetMapping({"","/"})
+    @GetMapping("/")
     public String index(Model model, @LoginUser SessionUser user) {
         model.addAttribute("posts", postService.findAllDesc());
 
@@ -27,13 +27,13 @@ public class IndexController {
 
     @GetMapping("/posts/save")
     public String postsSave() {
-        return "posts-save.html";
+        return "posts-save";
     }
 
     @GetMapping("/posts/update/{id}")
     public String postUpdate(@PathVariable Long id, Model model){
         model.addAttribute("post",postService.findById(id));
-        return "posts-update.html";
+        return "posts-update";
     }
 
 }
