@@ -16,4 +16,4 @@
   
   <br/>
 ### 📖 공부기록
-https://www.notion.so/AWS-043ba3da886c42a093b668cb62448fff
+https://conscious-foe-e61.notion.site/AWS-043ba3da886c42a093b668cb62448fff
