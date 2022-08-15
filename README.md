@@ -13,3 +13,7 @@
 - 기술스택
   - Back-End : SpringBoot2.6.7, JPA, H2, JUnit
   - Front-End : Mustache, BootStrap 4.3.1, jquery
+  
+  <br/>
+### 📖 공부기록
+https://www.notion.so/AWS-043ba3da886c42a093b668cb62448fff
