@@ -13,6 +13,7 @@
 - 기술스택
   - Back-End : SpringBoot2.6.7, JPA, H2, JUnit
   - Front-End : Mustache, BootStrap 4.3.1, jquery
+  - Infra : AWS EC2, RDS
   
   <br/>
 ### 📖 공부기록
